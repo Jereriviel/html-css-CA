@@ -1,0 +1,138 @@
+/* Use import to split up your CSS into manageable chunks */
+@import url("./_reset.css");
+/* Files that are only needed to be imported are called partials */
+/* These are marked with an underscore: */
+@import url("./_variables.css");
+/* Feel free to add as many of these imports as you need */
+
+html {
+  font-family: "new-science", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1d1d1d;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "rocinante-titling-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 400;
+}
+
+#button-primary {
+  background-color: #1f405f;
+  color: #ededed;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+#button-secondary {
+  background-color: #ededed;
+  color: #1f405f;
+  outline-style: inset;
+  outline-width: 2px;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.hero h1,
+.sale h2 {
+  font-size: 4.5rem;
+}
+
+h1,
+.newest-collection h2,
+.contact-details h2,
+.order-form h2 {
+  font-size: 3rem;
+}
+
+.product-details h1,
+.contact-details h3,
+.history h2,
+.values h2 {
+  font-size: 2rem;
+}
+
+footer h3,
+.order-form h3,
+.item-total {
+  font-size: 1.5rem;
+}
+
+.product-details,
+.contact-us,
+.card-name,
+.sale,
+.contact-details,
+.order-form,
+.item-price {
+  font-size: 1.125rem;
+}
+
+.details-small,
+.order-form span {
+  font-size: 1rem;
+}
+
+.card-gender,
+.product-details a {
+  font-size: 0.875rem;
+}
+
+.copyright,
+.before-price {
+  font-size: 0.75rem;
+}
+
+.values span,
+nav,
+.order-form span {
+  font-weight: 500;
+}
+
+.card-name {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+footer,
+footer a {
+  background-color: #1f405f;
+  color: #ededed;
+}
+
+.order-summary {
+  background-color: #3f6b95;
+  color: #ededed;
+}
+
+.hero,
+.sale {
+  color: #ededed;
+}
+
+.before-price {
+  color: #737373;
+  text-decoration: line-through;
+}
+
+.breadcrumb-here {
+  color: #737373;
+}
+
+.product-details a {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.copyright {
+  text-align: center;
+}
