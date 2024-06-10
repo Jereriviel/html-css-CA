@@ -287,7 +287,7 @@ textarea {
 .hero {
   min-height: 700px;
   color: var(--secondary-color-ultralight);
-  background-image: url(/assets/images/backgrounds/background_hero.jpg);
+  background-image: url(assets/images/backgrounds/background_hero.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -317,7 +317,7 @@ textarea {
   min-height: 700px;
   color: var(--secondary-color-ultralight);
   font-size: var(--font-size-paragraph-large);
-  background-image: url(/assets/images/backgrounds/background_sale.jpg);
+  background-image: url(assets/images/backgrounds/background_sale.jpg);
   background-position: center bottom;
   background-size: cover;
 }
@@ -446,7 +446,7 @@ textarea {
 .contact-details {
   min-height: 1000px;
   font-size: var(--font-size-paragraph-large);
-  background-image: url(/assets/images/backgrounds/background_contact.jpg);
+  background-image: url(assets/images/backgrounds/background_contact.jpg);
   background-position: right;
   background-size: cover;
 }
