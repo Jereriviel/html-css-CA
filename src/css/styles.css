@@ -270,6 +270,7 @@ footer a {
   .footer__links {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -320,14 +321,20 @@ footer li {
   grid-template-columns: auto auto;
   grid-template-rows: repeat(5, 1fr);
   align-items: center;
+  padding-left: 40px;
 }
 
-.follow-us li {
+.follow-us p {
   padding: 0.5rem;
+  margin: 0;
 }
 
 .follow-us__h3 {
-  padding: 2rem 0rem 1.5rem 0rem;
+  padding-left: 40px;
+}
+
+.follow-us__wrap {
+  margin-block: 16px;
 }
 
 /* || Utilities */
