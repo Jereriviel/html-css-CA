@@ -53,7 +53,7 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <span class="material-symbols-outlined"> shopping_basket </span>
+      <p><span class="material-symbols-outlined"> shopping_basket </span></p>
     </header>
     <main class="main__products">
       <section class="product-filters container">
@@ -63,41 +63,49 @@
           ><span class="material-symbols-outlined"> filter_alt </span></label
         >
         <form class="form__filters">
-          <label for="activity">Filter by Activity</label>
-          <label for="size">Filter by Size</label>
-          <label for="activity">Filter by Color</label>
-          <label for="sort-by">Sort by</label>
-          <select name="activity" id="activity">
-            <option value="all-activities">All Activities</option>
-            <option value="ski-snowboarding">Ski/Snowboarding</option>
-            <option value="mountaineering">Mountaineering</option>
-            <option value="hiking">Hiking</option>
-            <option value="trail-running">Trail Running</option>
-          </select>
-          <select name="size" id="size">
-            <option value="all-sizes">All Sizes</option>
-            <option value="extra-small">Extra Small</option>
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-            <option value="extra-large">Extra Large</option>
-          </select>
-          <select name="color" id="color">
-            <option value="all-colors">All Colors</option>
-            <option value="red">Red</option>
-            <option value="blue">Blue</option>
-            <option value="black">Black</option>
-            <option value="gray">Gray</option>
-            <option value="orange">Orange</option>
-            <option value="brown">Brown</option>
-          </select>
-          <select name="sort-by" id="sort-by">
-            <option value="newest">Newest</option>
-            <option value="price-low-high">Price Low to High</option>
-            <option value="price-high-low">Price High to Low</option>
-            <option value="discount">Discount</option>
-            <option value="bestsellers">Bestsellers</option>
-          </select>
+          <div class="filter__activity">
+            <label for="activity">Filter by Activity</label>
+            <select name="activity" id="activity">
+              <option value="all-activities">All Activities</option>
+              <option value="ski-snowboarding">Ski/Snowboarding</option>
+              <option value="mountaineering">Mountaineering</option>
+              <option value="hiking">Hiking</option>
+              <option value="trail-running">Trail Running</option>
+            </select>
+          </div>
+          <div class="filter__size">
+            <label for="size">Filter by Size</label>
+            <select name="size" id="size">
+              <option value="all-sizes">All Sizes</option>
+              <option value="extra-small">Extra Small</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="extra-large">Extra Large</option>
+            </select>
+          </div>
+          <div class="filter__color">
+            <label for="color">Filter by Color</label>
+            <select name="color" id="color">
+              <option value="all-colors">All Colors</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="black">Black</option>
+              <option value="gray">Gray</option>
+              <option value="orange">Orange</option>
+              <option value="brown">Brown</option>
+            </select>
+          </div>
+          <div class="filter__sort-by">
+            <label for="sort-by">Sort by</label>
+            <select name="sort-by" id="sort-by">
+              <option value="newest">Newest</option>
+              <option value="price-low-high">Price Low to High</option>
+              <option value="price-high-low">Price High to Low</option>
+              <option value="discount">Discount</option>
+              <option value="bestsellers">Bestsellers</option>
+            </select>
+          </div>
         </form>
       </section>
       <section class="product-list container">

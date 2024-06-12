@@ -53,17 +53,17 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <span class="material-symbols-outlined"> shopping_basket </span>
+      <p><span class="material-symbols-outlined"> shopping_basket </span></p>
     </header>
-    <main class="main__contact container">
-      <section class="contact-us">
+    <main class="main__contact">
+      <section class="contact-us container">
         <h1>Contact Us</h1>
         <p>
           Our customer service team will answer your request by 24 hours on
           weekdays.
         </p>
         <form class="form__contact">
-          <fieldset>
+          <div class="contact-full-name">
             <label for="full-name">Full Name</label>
             <input
               type="text"
@@ -72,6 +72,8 @@
               placeholder="First and last name"
               required
             />
+          </div>
+          <div class="contact-email">
             <label for="email-contact">Email</label>
             <input
               type="email-contact"
@@ -80,6 +82,8 @@
               placeholder="example@email.com"
               required
             />
+          </div>
+          <div class="contact-phone">
             <label for="phone">Phone (optional)</label>
             <input
               type="tel"
@@ -87,6 +91,8 @@
               id="phone"
               placeholder="+47 999 99 999"
             />
+          </div>
+          <div class="contact-subject">
             <label for="subject">Subject</label>
             <input
               type="text"
@@ -95,6 +101,8 @@
               placeholder="Subject of your message"
               required
             />
+          </div>
+          <div class="contact-message">
             <label for="message">Message</label>
             <textarea
               name="message"
@@ -102,22 +110,34 @@
               placeholder="Write your message here."
               required
             ></textarea>
+          </div>
+          <div class="contact-button">
             <button class="button__secondary">Submit</button>
-          </fieldset>
+          </div>
         </form>
       </section>
       <section class="contact-details">
         <h2>Contact Details</h2>
-        <h3>Our Location</h3>
-        <p>Mølleparken 4</p>
-        <p>0459 Oslo</p>
-        <p>Norway</p>
-        <h3>Call Us</h3>
-        <p>(+47) 38 00 00 00</p>
-        <h3>Email Us</h3>
-        <p>contact@rainydays.com</p>
-        <h3>Opening Hours</h3>
-        <p>Mon - Fri: 08.00 - 16.00</p>
+        <div class="contact-details__info">
+          <div>
+            <h3>Our Location</h3>
+            <p>Mølleparken 4</p>
+            <p>0459 Oslo</p>
+            <p>Norway</p>
+          </div>
+          <div>
+            <h3>Call Us</h3>
+            <p>(+47) 38 00 00 00</p>
+          </div>
+          <div>
+            <h3>Email Us</h3>
+            <p>contact@rainydays.com</p>
+          </div>
+          <div>
+            <h3>Opening Hours</h3>
+            <p>Mon - Fri: 08.00 - 16.00</p>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="container">
