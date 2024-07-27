@@ -72,6 +72,9 @@
 details {
   padding-top: 2rem;
   line-height: 1.2;
+}
+
+details summary {
   cursor: pointer;
 }
 
